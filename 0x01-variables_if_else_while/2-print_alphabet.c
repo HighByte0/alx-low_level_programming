@@ -1,16 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - print alphabet .
- * return: always 0 (success)
- * */
-int main (void){
-	char alpha[26]="qwertyuiopasdfghjklzxcvbnm";
-	 int i;
-	 for (i=0 ;i<26 ;i++)
-	 {
-		 putchar(alpha[i]);
-	 }
-putchar('\n');
-return (0);
-}
+ * main- Entry point
+ * @void: Null value
+ *
+ * Description: Print alphabet lowercase
+ * Return: Zero value
+ */
+
+int main(void)
+{
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	putchar('\n');
+	return (0);
+}}
