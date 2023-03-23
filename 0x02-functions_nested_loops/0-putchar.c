@@ -6,14 +6,7 @@
  */
 int main(void)
 {
-	char *sh = "Holberton";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
+	_putchar('_putchar');
 
 	return (0);
 }
